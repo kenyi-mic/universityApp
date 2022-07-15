@@ -25,8 +25,7 @@ import {
 } from "react-native-heroicons/outline";
 import Carousel from "../components/Carousel";
 import CourseCarousel from "../components/CourseCarousel";
-import LectureCarousel from "../components/LectureCarousel";
-import { data, aboutUgv, courseData, teacher } from "../data/Data";
+import { data, aboutUgv, courseData } from "../data/Data";
 import VideoPage from "../components/VideoPage";
 import InfoPage from "../components/InfoPage";
 
@@ -171,7 +170,6 @@ const HomeScreen = () => {
         <View>
           <InfoPage />
         </View>
-        <LectureCarousel data={teacher} />
       </ScrollView>
     </SafeAreaView>
   );

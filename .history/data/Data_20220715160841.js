@@ -114,7 +114,7 @@ export const teacher = [
   {
     id: 1,
     image: "https://isaect.org/images/chair1.jpg",
-    name: "Prof. Amlan chakrabarti ",
+    name: "Elias ",
     position: "Acadamic Advisor",
   },
   {

@@ -108,49 +108,13 @@ export const courseData = [
     border: 2,
     id: 8,
   },
+
 ];
 
 export const teacher = [
   {
-    id: 1,
+    id:1,
     image: "https://isaect.org/images/chair1.jpg",
-    name: "Prof. Amlan chakrabarti ",
-    position: "Acadamic Advisor",
-  },
-  {
-    id: 2,
-    image: "https://ugv.edu.bd/images/teacher_images/1638767129.jpg",
-    name: "Professor Dr. Md. Kaykobad ",
-    position: "Acadamic Advisor",
-  },
-  {
-    id: 3,
-    image: "https://ugv.edu.bd/images/teacher_images/1601549027.jpg",
-    name: "Newton M A Hakim ",
-    position: "Research advisor",
-  },
-  {
-    id: 4,
-    image: "https://ugv.edu.bd/images/teacher_images/1644992210.jpg",
-    name: "Professor Badiuzzaman ",
-    position: "Academic and Research Advisor",
-  },
-  {
-    id: 5,
-    image: "https://ugv.edu.bd/images/teacher_images/1580277368.jpg",
-    name: "Engr. A.H.M. Delwar Haidar ",
-    position: "Professor",
-  },
-  {
-    id: 6,
-    image: "https://ugv.edu.bd/images/teacher_images/1645956702.jpg",
-    name: "Eliash Kanson ",
-    position: "Assistant Professor & Chariman",
-  },
-  {
-    id: 7,
-    image: "https://ugv.edu.bd/images/teacher_images/1580279334.jpg",
-    name: "Dr. Md. Farid Ahmed ",
-    position: "Professor",
-  },
-];
+    name:'prof. amlan chakrabarti '
+  }
+]

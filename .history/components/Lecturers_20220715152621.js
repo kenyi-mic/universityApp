@@ -12,10 +12,11 @@ const { height, width } = Dimensions.get("window");
 const Courses = ({ data }) => {
   return (
     <View style={styles.container} className="flex flex-1 items-center ">
-      <Text className="text-red-500 text-2xl text-semibold my-5">COURSES</Text>
+      <Text className="text-red-500 text-2xl text-semibold my-5">
+        Lecturers
+      </Text>
       <Text className="text-gray-600 mx-3 text-center ">
-        To help you build your career and accomplish your goal, we are offering
-        8 undergraduate and master's programs under 3 faculties.
+        University of Global Village(UGV), Barisal
       </Text>
       <View className="max-w-sm  border-2 my-5 border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
         <Image
@@ -34,7 +35,7 @@ const Courses = ({ data }) => {
         </Text>
         <TouchableOpacity className="flex-2">
           <Text className="w-28 h-9 flex items-center left-2/3 my-5 py-2 px-3 text-sm font-medium text-center text-white bg-blue-700  hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-            Appy Now
+            View Details
           </Text>
         </TouchableOpacity>
       </View>

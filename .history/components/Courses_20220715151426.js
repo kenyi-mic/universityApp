@@ -7,6 +7,7 @@ import {
   StyleSheet,
 } from "react-native";
 import React from "react";
+
 const { height, width } = Dimensions.get("window");
 
 const Courses = ({ data }) => {
