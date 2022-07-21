@@ -6,10 +6,12 @@ const TableComponent = ({ data }) => {
   return (
     <FlatList
       data={data}
-      renderItem={({ item, i }) => (
-        <View key={i} style={styles.container}>
-          <Text>{item.header1}</Text>
-          <Text>{item.header2}</Text>
+      renderItem={({ item }) => (
+        <View key={item.id} style={styles.container}>
+          <Table borderStyle={{ borderWidth: 2, borderColor: "#c8e1ff" }}>
+            <Row data={item.header1} style={styles.head} Style={styles.text} />
+            <Rows data={item.header2} textStyle={styles.text} />
+          </Table>
         </View>
       )}
     />

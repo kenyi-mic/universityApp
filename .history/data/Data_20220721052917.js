@@ -256,31 +256,3 @@ export const admissioninfo = [
     7 A’s in O- level (one sitting) and 3 A’s in A-level. `,
   },
 ];
-
-export const admissionTableInfo = [
-  {
-    id: "1",
-    header1: "Admission Sessions",
-    header2: "Summer and Winter",
-  },
-  {
-    id: "2",
-    header1: "Admission Deadlines for each session",
-    header2: "Summer(30 June) and Winter(30 December)",
-  },
-  {
-    id: "3",
-    header1: "Class Start date",
-    header2: "Summer(-10 July ) and Winter(1-10 January",
-  },
-  {
-    id: "4",
-    header1: "Registration Deadline",
-    header2: "Before 5 days of examinations",
-  },
-  {
-    id: "5",
-    header1: "Tution fees payment",
-    header2: "50% with registration and 50% after Mid Exams",
-  },
-];

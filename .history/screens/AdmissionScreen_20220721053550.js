@@ -12,20 +12,20 @@ import {
 import React from "react";
 import Header from "../components/Header";
 import { useNavigation } from "@react-navigation/native";
-import { admissionData, admissioninfo, admissionTableInfo } from "../data/Data";
-import Table from "../components/Table";
+import { admissionData, admissioninfo } from "../data/Data";
 
 const { height, width } = Dimensions.get("window");
 
 const AdmissionScreen = () => {
   const navigation = useNavigation();
   return (
-    <View style={styles.container} className="flex-1 items-center">
-      <SafeAreaView className="flex-1">
+    <View style={styles.container}>
+      <SafeAreaView>
         <Header />
-        <ScrollView>
-          <View className="flex-1 items-center">
+        <ScrollView style={styles.innerContainer}>
+          <View className="flex items-center">
             <Image
+              className="sticky "
               resizeMode="cover"
               source={{
                 width: width,
@@ -56,40 +56,30 @@ const AdmissionScreen = () => {
               </Text>
               <Text className="mb-3  px-3 font-light">Credit Transfer</Text>
             </View>
-            <View style={styles.content}>
-              {admissionData.map((item) => (
-                <View key={item.id} className="flex ">
-                  <Text className="text-center my-2 text-2xl border-b border-gray-300 text-gray-900 ">
-                    {item.header}
-                  </Text>
-                  <Text className="text-sm font-light">{item.body}</Text>
-                </View>
-              ))}
-              {admissioninfo.map((item, i) => (
-                <View key={i} className="flex ">
-                  <Text className="text-center my-2 text-2xl border-b border-gray-300 text-gray-900 ">
-                    {item.header}
-                  </Text>
-                  <Text className="text-lg font-semibold  ">
-                    {item.subheader1}
-                  </Text>
-                  <Text className="text-sm font-light ">{item.body1}</Text>
-                  <Text className="text-lg font-semibold ">
-                    {item.subheader2}
-                  </Text>
-                  <Text className="text-sm font-light mb-2 ">{item.body2}</Text>
-                </View>
-              ))}
-            </View>
+            {admissionData.map((item) => (
+              <View key={item.id} className="flex ">
+                <Text className="text-center my-2 text-2xl border-b border-gray-300 text-gray-900 ">
+                  {item.header}
+                </Text>
+                <Text className="text-sm font-light">{item.body}</Text>
+              </View>
+            ))}
+            {admissioninfo.map((item, i) => (
+              <View key={i} className="flex ">
+                <Text className="text-center my-2 text-2xl border-b border-gray-300 text-gray-900 ">
+                  {item.header}
+                </Text>
+                <Text className="text-lg font-semibold ">
+                  {item.subheader1}
+                </Text>
+                <Text className="text-sm font-light">{item.body1}</Text>
+                <Text className="text-lg font-semibold">{item.subheader2}</Text>
+                <Text className="text-sm font-light mb-2">{item.body2}</Text>
+              </View>
+            ))}
           </View>
         </ScrollView>
-        <View>
-          <Table data={admissionTableInfo} />
-        </View>
       </SafeAreaView>
-      <Text className="font-italic text-center text-gray-100 py-2 bg-blue-900 border-t w-full border-gray-300 ">
-        Check our website: ugv.edu.bd/
-      </Text>
     </View>
   );
 };
@@ -97,10 +87,12 @@ const AdmissionScreen = () => {
 const styles = StyleSheet.create({
   container: {
     marginTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
+    width: width - 20,
   },
 
-  content: {
+  admission1: {
     width: width - 20,
+    height: height / 1.5,
   },
 });
 export default AdmissionScreen;

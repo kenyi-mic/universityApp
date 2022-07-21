@@ -12,8 +12,7 @@ import {
 import React from "react";
 import Header from "../components/Header";
 import { useNavigation } from "@react-navigation/native";
-import { admissionData, admissioninfo, admissionTableInfo } from "../data/Data";
-import Table from "../components/Table";
+import { admissionData, admissioninfo } from "../data/Data";
 
 const { height, width } = Dimensions.get("window");
 
@@ -21,10 +20,10 @@ const AdmissionScreen = () => {
   const navigation = useNavigation();
   return (
     <View style={styles.container} className="flex-1 items-center">
-      <SafeAreaView className="flex-1">
+      <SafeAreaView className="flex-1 items-center ">
         <Header />
         <ScrollView>
-          <View className="flex-1 items-center">
+          <View>
             <Image
               resizeMode="cover"
               source={{
@@ -83,9 +82,6 @@ const AdmissionScreen = () => {
             </View>
           </View>
         </ScrollView>
-        <View>
-          <Table data={admissionTableInfo} />
-        </View>
       </SafeAreaView>
       <Text className="font-italic text-center text-gray-100 py-2 bg-blue-900 border-t w-full border-gray-300 ">
         Check our website: ugv.edu.bd/

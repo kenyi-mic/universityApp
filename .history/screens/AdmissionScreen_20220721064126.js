@@ -12,7 +12,7 @@ import {
 import React from "react";
 import Header from "../components/Header";
 import { useNavigation } from "@react-navigation/native";
-import { admissionData, admissioninfo, admissionTableInfo } from "../data/Data";
+import { admissionData, admissioninfo } from "../data/Data";
 import Table from "../components/Table";
 
 const { height, width } = Dimensions.get("window");
@@ -82,10 +82,10 @@ const AdmissionScreen = () => {
               ))}
             </View>
           </View>
+          <View>
+            <Table />
+          </View>
         </ScrollView>
-        <View>
-          <Table data={admissionTableInfo} />
-        </View>
       </SafeAreaView>
       <Text className="font-italic text-center text-gray-100 py-2 bg-blue-900 border-t w-full border-gray-300 ">
         Check our website: ugv.edu.bd/

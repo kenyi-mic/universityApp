@@ -238,6 +238,11 @@ const HomeScreen = () => {
             </Text>
           </View>
         </View>
+        <View className="bg-blue-900 py-3">
+          <Text className="text-gray-300 text-sm font-bold text-center ">
+            UGV APP development group
+          </Text>
+        </View>
       </ScrollView>
       <Text className="font-italic text-center text-gray-100 py-2 bg-blue-900 border-t w-full border-gray-300 ">
         Check our website: ugv.edu.bd/

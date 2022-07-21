@@ -82,10 +82,10 @@ const AdmissionScreen = () => {
               ))}
             </View>
           </View>
+          <View>
+            <Table data={admissionTableInfo} />
+          </View>
         </ScrollView>
-        <View>
-          <Table data={admissionTableInfo} />
-        </View>
       </SafeAreaView>
       <Text className="font-italic text-center text-gray-100 py-2 bg-blue-900 border-t w-full border-gray-300 ">
         Check our website: ugv.edu.bd/
