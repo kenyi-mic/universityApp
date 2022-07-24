@@ -16,10 +16,10 @@ const InfoPage = () => {
       className="flex justify-center items-center my-5 bg-gradient-to-tr from-blue-500 to-indigo-500"
     >
       <ImageBackground
-        className=" w-full h-full "
+        className=""
         resizeMode="cover"
         source={{
-          uri: "https://i.pinimg.com/originals/e9/41/ee/e941eed63315d329b3c1831d9466b5f6.png",
+          uri: "https://images.unsplash.com/photo-1546953304-5d96f43c2e94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODh8fHN0dWRlbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
         }}
       />
       <View className="absolute  ">

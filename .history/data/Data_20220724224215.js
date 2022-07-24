@@ -1,8 +1,7 @@
 export const data = [
   {
     title: "1st UGV South Zone Programming Contest 2022",
-    image:
-      "https://i.pinimg.com/originals/e9/b2/f0/e9b2f072bc11acc4536c3ac09128bbfc.jpg",
+    image: "https://ugv.edu.bd/images/event_featuredimages/1655545131.jpg",
     description: `Student studying in a school, college and university in South Zone of Bangladesh 
           (Barisal, Barguna, Bhola, Jhalokati, Patuakhali, Pirojpur, Khulna, Bagerhat, Chuadanga, 
           Jashore, Jhenaidah, Kushtia, Magura, Meherpur, Narail, Satkhira, Madaripur, 
@@ -12,16 +11,14 @@ export const data = [
   },
   {
     title: "Bangabandhu Inter University Sports CHAMPS 2020",
-    image:
-      "https://i.pinimg.com/originals/79/ec/5e/79ec5ea077d565d0db8ce4b680b3198f.jpg",
+    image: "https://ugv.edu.bd/images/event_images/189846288.jpg",
     description: `Bangabandhu_Inter_University_Sports_CHAMPS_2020 #ঢাকা ইন্টারন্যাশনাল ইউনিভার্সিটিকে ২_০ হারিয়ে গ্রুপ চ্যাম্পিয়ন হয়ে ২য় রাউন্ডে ইউনিভার্সিটি অব গ্লোবাল ভিলেজ, বরিশাল।`,
     id: "02",
     screen: "sports",
   },
   {
     title: "Seminar on machine learning",
-    image:
-      "https://i.pinimg.com/originals/a8/bc/dc/a8bcdc3d73896bbcb3972721cb3ce445.jpg",
+    image: "https://ugv.edu.bd/images/event_images/1844168870.JPG",
     description: `This event happen during carnival of 2019, where group of instructors who brought from priestigues universities to take seminor with student of university of global village. And machine learning siminar is one of em.`,
     id: "04",
     screen: "seminor",
@@ -36,8 +33,7 @@ export const data = [
   },
   {
     title: "Prize Giving and Closing Ceremony",
-    image:
-      "https://i.pinimg.com/originals/02/0d/5e/020d5e48655cd379ba66b7a732193aa8.jpg",
+    image: "https://ugv.edu.bd/images/event_images/340088945.JPG",
     description: `UGV carnival 2019, is one the promising event that occured in 2019. It involed variety of computational activities and great awards for those who won.`,
     id: "06",
     screen: "Carnival",

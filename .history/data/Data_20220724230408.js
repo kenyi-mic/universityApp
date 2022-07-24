@@ -2,7 +2,7 @@ export const data = [
   {
     title: "1st UGV South Zone Programming Contest 2022",
     image:
-      "https://i.pinimg.com/originals/e9/b2/f0/e9b2f072bc11acc4536c3ac09128bbfc.jpg",
+      "https://i.pinimg.com/originals/e9/b2/f0/e9b2f072bc11acc4536c3ac09128bbfc.jpghttps://i.pinimg.com/originals/e9/b2/f0/e9b2f072bc11acc4536c3ac09128bbfc.jpg",
     description: `Student studying in a school, college and university in South Zone of Bangladesh 
           (Barisal, Barguna, Bhola, Jhalokati, Patuakhali, Pirojpur, Khulna, Bagerhat, Chuadanga, 
           Jashore, Jhenaidah, Kushtia, Magura, Meherpur, Narail, Satkhira, Madaripur, 

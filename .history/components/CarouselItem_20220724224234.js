@@ -14,7 +14,7 @@ const CarouselItem = ({ data }) => {
     >
       <Image
         style={{ width: width - 20, height: height / 3 }}
-        className="brightness-50 bg-purple-200/75  outline-black  bg-contain "
+        className="brightness-50 bg-purple-200/75  outline-black opacity-70 bg-contain "
         source={{
           uri: data?.image,
         }}
