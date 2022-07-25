@@ -53,6 +53,7 @@ const ProfileScreen = () => {
         source={{ uri: "https://webportal.ugv.edu.bd" }}
         startInLoadingState
         renderLoading={renderLoadingView}
+        {...(renderLoading && alert("Loading ..."))}
       />
       <Text className="font-italic text-center text-gray-100 py-5 bg-blue-900 border-t w-full border-gray-300 ">
         Check our website: ugv.edu.bd/

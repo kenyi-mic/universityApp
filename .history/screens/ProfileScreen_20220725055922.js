@@ -18,6 +18,9 @@ import { MenuIcon } from "react-native-heroicons/outline";
 const ProfileScreen = () => {
   const [visible, setVisible] = useState(false);
 
+  const openMenu = () => {
+    setVisible(true);
+  };
   const closeMenu = () => {
     setVisible(false);
   };

@@ -18,6 +18,9 @@ import { MenuIcon } from "react-native-heroicons/outline";
 const ProfileScreen = () => {
   const [visible, setVisible] = useState(false);
 
+  const openMenu = () => {
+    setVisible(true);
+  };
   const closeMenu = () => {
     setVisible(false);
   };
@@ -43,7 +46,7 @@ const ProfileScreen = () => {
       <TouchableOpacity
         style={styles.menuIcon}
         visible={visible}
-        onPress={() => navigation.openDrawer()}
+        onPress={openMenu}
         onDismiss={closeMenu}
       >
         <MenuIcon size={25} color={"gray"} />

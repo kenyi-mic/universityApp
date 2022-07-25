@@ -9,18 +9,13 @@ import {
   View,
   Text,
 } from "react-native";
-import React, { useState } from "react";
+import React from "react";
 
 import WebView from "react-native-webview";
 import { useNavigation } from "@react-navigation/native";
 import { MenuIcon } from "react-native-heroicons/outline";
 
 const ProfileScreen = () => {
-  const [visible, setVisible] = useState(false);
-
-  const closeMenu = () => {
-    setVisible(false);
-  };
   const renderLoadingView = () => (
     <View style={styles.loadView}>
       <ActivityIndicator size="large" color={"blue"} />
@@ -40,12 +35,7 @@ const ProfileScreen = () => {
         />
       </TouchableOpacity>
 
-      <TouchableOpacity
-        style={styles.menuIcon}
-        visible={visible}
-        onPress={() => navigation.openDrawer()}
-        onDismiss={closeMenu}
-      >
+      <TouchableOpacity style={styles.menuIcon}>
         <MenuIcon size={25} color={"gray"} />
       </TouchableOpacity>
 
@@ -75,8 +65,8 @@ const styles = StyleSheet.create({
   },
   menuIcon: {
     position: "absolute",
-    right: 28,
-    top: 91.75,
+    right: 26,
+    top: 89.99,
     zIndex: 5,
   },
 });
