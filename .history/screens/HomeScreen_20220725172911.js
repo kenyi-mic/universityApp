@@ -20,6 +20,7 @@ import {
 } from "react-native-heroicons/outline";
 import Event from "../components/Events";
 import Carousel from "../components/Carousel";
+
 import LectureCarousel from "../components/LectureCarousel";
 import { data, aboutUgv, courseData, teacher, testimonial } from "../data/Data";
 import VideoPage from "../components/VideoPage";

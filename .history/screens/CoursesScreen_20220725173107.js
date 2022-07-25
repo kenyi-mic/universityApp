@@ -28,23 +28,17 @@ const CoursesScreen = () => {
               source={{
                 width: width,
                 height: height / 6,
-                uri: "https://i.pinimg.com/originals/65/64/ab/6564ab9429476d7f2264706f932fc870.png",
+                uri: "https://images.unsplash.com/photo-1519070994522-88c6b756330e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGFkbWlzc2lvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
               }}
             />
-            <Text className="text-4xl text-white font-extrabold text-center mt-10 absolute">
+            <Text className="text-4xl text-white font-bold text-center mt-10 absolute">
               UGV COURSES
             </Text>
           </View>
           <View className="flex flex-1 items-center justify-center">
             <CourseCarousel data={courseData} />
           </View>
-
-          <Text>Text home</Text>
-          <Text>Text home</Text>
         </ScrollView>
-        {/* <Text className="font-italic text-center text-gray-100 py-5 bg-blue-900 border-t w-full border-gray-300 ">
-          Check our website: ugv.edu.bd/
-        </Text> */}
       </View>
     </SafeAreaView>
   );
@@ -53,7 +47,6 @@ const CoursesScreen = () => {
 const styles = StyleSheet.create({
   container: {
     marginTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
-    height: height,
   },
 });
 

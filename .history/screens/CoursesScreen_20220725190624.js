@@ -38,9 +38,6 @@ const CoursesScreen = () => {
           <View className="flex flex-1 items-center justify-center">
             <CourseCarousel data={courseData} />
           </View>
-
-          <Text>Text home</Text>
-          <Text>Text home</Text>
         </ScrollView>
         {/* <Text className="font-italic text-center text-gray-100 py-5 bg-blue-900 border-t w-full border-gray-300 ">
           Check our website: ugv.edu.bd/

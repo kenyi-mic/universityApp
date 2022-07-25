@@ -38,7 +38,7 @@ const CoursesScreen = () => {
           <View className="flex flex-1 items-center justify-center">
             <CourseCarousel data={courseData} />
           </View>
-
+          xt>Text home</Text>
           <Text>Text home</Text>
           <Text>Text home</Text>
         </ScrollView>

@@ -17,7 +17,7 @@ const Courses = ({ data }) => {
         To help you build your career and accomplish your goal, we are offering
         8 undergraduate and master's programs under 3 faculties.
       </Text>
-      <View className="max-w-sm  border-4 my-5 border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
+      <View className="max-w-sm  border-4 my-5 border-gray-100 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
         <Image
           resizeMode="cover"
           className="my-5"
