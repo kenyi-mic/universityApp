@@ -61,22 +61,14 @@ const StudentGuideScreen = () => {
             </View>
 
             {guideInfo.map((item) => (
-              <View key={item.id} className="w-11/12">
-                <Text className="my-3 text-xl underline text-gray-400 font-extrabold">
-                  {item.header}
-                </Text>
-                <Text className="my-3 text-base justify-self-start">
-                  {item.description}
-                </Text>
+              <View key={item.id}>
+                <Text>{item.header}</Text>
+                <Text>{item.description}</Text>
               </View>
             ))}
           </View>
         </ScrollView>
-        <Text className="font-italic text-center text-gray-100 py-5 bg-blue-900 border-t w-full border-gray-300 ">
-          Check our website: ugv.edu.bd/
-        </Text>
       </View>
-      <Text className="w-full bg-blue-900"></Text>
     </SafeAreaView>
   );
 };
@@ -84,7 +76,6 @@ const StudentGuideScreen = () => {
 const styles = StyleSheet.create({
   container: {
     marginTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
-    height: height,
   },
 });
 

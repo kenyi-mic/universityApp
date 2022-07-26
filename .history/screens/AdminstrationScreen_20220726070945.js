@@ -20,7 +20,7 @@ const AdminstrationScreen = () => {
     <SafeAreaView>
       <View style={styles.container}>
         <Header />
-        <ScrollView className="flex-1">
+        <ScrollView>
           <View className="flex flex-1 items-center justify-center relative">
             <Image
               source={{

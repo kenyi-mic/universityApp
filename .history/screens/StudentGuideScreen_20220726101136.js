@@ -76,7 +76,6 @@ const StudentGuideScreen = () => {
           Check our website: ugv.edu.bd/
         </Text>
       </View>
-      <Text className="w-full bg-blue-900"></Text>
     </SafeAreaView>
   );
 };

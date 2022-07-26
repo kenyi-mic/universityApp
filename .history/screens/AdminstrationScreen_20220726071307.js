@@ -20,7 +20,7 @@ const AdminstrationScreen = () => {
     <SafeAreaView>
       <View style={styles.container}>
         <Header />
-        <ScrollView className="flex-1">
+        <ScrollView style={styles.contentContainer} className="flex-1">
           <View className="flex flex-1 items-center justify-center relative">
             <Image
               source={{
@@ -77,6 +77,13 @@ const styles = StyleSheet.create({
   container: {
     marginTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
     height: height,
+  },
+  contentContainer: {
+    flex: 1,
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
 

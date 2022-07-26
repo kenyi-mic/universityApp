@@ -15,7 +15,7 @@ import { useNavigation } from "@react-navigation/native";
 import { admissionData, admissioninfo, faqData } from "../data/Data";
 import Table from "../components/Table";
 import Faq from "../components/Faq";
-import Animated from "react-native-reanimated";
+import { HashLink as Link } from "react-router-hash-link";
 
 const { height, width } = Dimensions.get("window");
 

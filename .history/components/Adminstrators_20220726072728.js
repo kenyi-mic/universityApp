@@ -5,7 +5,7 @@ const Adminstrators = () => {
   return (
     <View className="flex flex-row gap-1 ">
       <View className="grid grid-rows-2 grid-cols-2 gap-2">
-        <TouchableOpacity activeOpacity={0.8}>
+        <TouchableOpacity>
           <View className="border bg-white shadow-lg shadow-black border-gray-100 w-44 h-48">
             <Image
               resizeMode="cover"
@@ -26,7 +26,7 @@ const Adminstrators = () => {
           </View>
         </TouchableOpacity>
 
-        <TouchableOpacity activeOpacity={0.8}>
+        <TouchableOpacity>
           <View className="border  bg-white  shadow-2xl border-gray-100 w-44 h-48">
             <Image
               resizeMode="cover"
@@ -49,7 +49,7 @@ const Adminstrators = () => {
       </View>
 
       <View className="grid grid-rows-2 grid-cols-2 gap-2">
-        <TouchableOpacity activeOpacity={0.8}>
+        <TouchableOpacity>
           <View className="border bg-white shadow-lg shadow-black border-gray-100 w-44 h-48">
             <Image
               resizeMode="cover"

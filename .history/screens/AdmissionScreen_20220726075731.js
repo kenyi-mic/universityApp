@@ -15,7 +15,7 @@ import { useNavigation } from "@react-navigation/native";
 import { admissionData, admissioninfo, faqData } from "../data/Data";
 import Table from "../components/Table";
 import Faq from "../components/Faq";
-import Animated from "react-native-reanimated";
+import { HashLink as Link } from "react-router-hash-link";
 
 const { height, width } = Dimensions.get("window");
 
@@ -52,10 +52,11 @@ const AdmissionScreen = () => {
               <Text className="mt-4 mb-2 border-b px-3 border-gray-600 font-light">
                 Wavier
               </Text>
-
-              <Text className="my-2 border-b px-3 border-gray-600 font-light">
-                FAQs
-              </Text>
+              <Link to="faq">
+                <Text className="my-2 border-b px-3 border-gray-600 font-light">
+                  FAQs
+                </Text>
+              </Link>
 
               <Text className="mb-3  px-3 font-light">Credit Transfer</Text>
             </View>
@@ -92,7 +93,10 @@ const AdmissionScreen = () => {
 
             {/*FAQs */}
             <View className=" items-center">
-              <Text className=" text-2xl text-gray-500 border-b border-gray-300 my-2 ">
+              <Text
+                id="faq"
+                className=" text-2xl text-gray-500 border-b border-gray-300 my-2 "
+              >
                 FAQs
               </Text>
               <Faq data={faqData} />

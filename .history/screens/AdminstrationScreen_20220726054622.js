@@ -20,7 +20,7 @@ const AdminstrationScreen = () => {
     <SafeAreaView>
       <View style={styles.container}>
         <Header />
-        <ScrollView className="flex-1">
+        <ScrollView>
           <View className="flex flex-1 items-center justify-center relative">
             <Image
               source={{
@@ -33,7 +33,7 @@ const AdminstrationScreen = () => {
               UGV ADMINSTARATION
             </Text>
             <View style={{ width: width - 20 }} className="my-2">
-              <Text className="text-xl  text-blue-900 font-extrabold py-5 mx-2 ">
+              <Text className="text-2xl  text-blue-900 font-extrabold py-5 mx-2 ">
                 ADMINSTRATIVE STRUCTURE OF UGV
               </Text>
               <View className="items-center">

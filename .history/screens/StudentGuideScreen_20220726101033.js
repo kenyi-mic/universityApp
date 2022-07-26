@@ -72,11 +72,11 @@ const StudentGuideScreen = () => {
             ))}
           </View>
         </ScrollView>
-        <Text className="font-italic text-center text-gray-100 py-5 bg-blue-900 border-t w-full border-gray-300 ">
+        <Text className="font-italic text-center text-gray-100 py-3  bg-blue-900 border-t w-full border-gray-300 ">
           Check our website: ugv.edu.bd/
         </Text>
+        <Text className="w-full bg-blue-900"></Text>
       </View>
-      <Text className="w-full bg-blue-900"></Text>
     </SafeAreaView>
   );
 };
