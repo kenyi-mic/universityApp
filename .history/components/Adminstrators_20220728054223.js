@@ -51,10 +51,7 @@ const Adminstrators = () => {
       </View>
 
       <View className="grid grid-rows-2 grid-cols-2 gap-2">
-        <TouchableOpacity
-          activeOpacity={0.8}
-          onPress={() => navigation.navigate("Tast")}
-        >
+        <TouchableOpacity activeOpacity={0.8} onPress={()=>NavigationPreloadManager.}>
           <View className="border bg-white shadow-lg shadow-black border-gray-100 w-44 h-48">
             <Image
               resizeMode="cover"

@@ -12,7 +12,6 @@ import ScholarshipScreen from "../screens/ScholarshipScreen";
 import OnlineCourseScreen from "../screens/OnlineCourseScreen";
 import FaqScreen from "../screens/FaqScreen";
 import CustomDrawer from "../components/CustomDrawer";
-
 import {
   AcademicCapIcon,
   BadgeCheckIcon,
@@ -171,7 +170,6 @@ const AppStack = () => {
           ),
         }}
       />
-
       <Drawer.Screen
         name="FAQs"
         component={FaqScreen}

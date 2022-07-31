@@ -12,7 +12,6 @@ import ScholarshipScreen from "../screens/ScholarshipScreen";
 import OnlineCourseScreen from "../screens/OnlineCourseScreen";
 import FaqScreen from "../screens/FaqScreen";
 import CustomDrawer from "../components/CustomDrawer";
-
 import {
   AcademicCapIcon,
   BadgeCheckIcon,
@@ -33,6 +32,7 @@ import AdmissionScreen from "../screens/AdmissionScreen";
 import CoursesScreen from "../screens/CoursesScreen";
 import ProfileScreen from "../screens/ProfileScreen";
 import StudentGuideScreen from "../screens/StudentGuideScreen";
+import TasteScreen from "../screens/TasteScreen";
 
 const Drawer = createDrawerNavigator();
 
@@ -61,6 +61,7 @@ const AppStack = () => {
           ),
         }}
       />
+      <Drawer.Screen component={TasteScreen} />
 
       <Drawer.Screen
         name="Adminstration"

@@ -11,6 +11,9 @@ export default function App() {
   return (
     <NavigationContainer>
       <TailwindProvider>
+        <Stack.Navigator>
+          <Stack.Screen name="AuthStack" component={AuthStack} />
+        </Stack.Navigator>
         <AppStack />
       </TailwindProvider>
     </NavigationContainer>

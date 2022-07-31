@@ -11,7 +11,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <TailwindProvider>
-        <AppStack />
+        <AuthStack />
       </TailwindProvider>
     </NavigationContainer>
   );
