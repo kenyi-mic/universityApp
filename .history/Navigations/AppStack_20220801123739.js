@@ -55,7 +55,7 @@ const AppStack = () => {
     >
       <Drawer.Screen
         name="Home"
-        component={HomeScreen}
+        component={LoginScreen}
         options={{
           drawerIcon: ({ color }) => (
             <HomeIcon size={22} color={color} title={"Home"} />
@@ -92,7 +92,7 @@ const AppStack = () => {
       />
       <Drawer.Screen
         name="Student Portal"
-        component={LoginScreen}
+        component={ProfileScreen}
         options={{
           drawerIcon: ({ color }) => (
             <UserIcon size={22} color={color} title={"user"} />
