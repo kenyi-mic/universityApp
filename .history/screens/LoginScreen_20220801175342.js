@@ -23,7 +23,7 @@ const LoginScreen = () => {
   return (
     <SafeAreaView>
       <View style={styles.container}>
-        <View className="w-full bg-blue-800 mb-5 h-24 rounded-br-full"></View>
+        <View className="w-full bg-blue-800 h-24 rounded-br-full"></View>
         <View className="flex items-center justify-center mb-10 ">
           <Image
             style={styles.image}

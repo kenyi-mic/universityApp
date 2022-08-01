@@ -23,7 +23,7 @@ const LoginScreen = () => {
   return (
     <SafeAreaView>
       <View style={styles.container}>
-        <View className="w-full bg-blue-800 mb-5 h-24 rounded-br-full"></View>
+        <View className="w-full bg-blue-800 h-24 rounded-br-full"></View>
         <View className="flex items-center justify-center mb-10 ">
           <Image
             style={styles.image}
@@ -64,14 +64,14 @@ const LoginScreen = () => {
           </View>
         </View>
         <View className="items-end">
-          <TouchableOpacity className=" bg-white my-5 w-2/3 px-4 rounded-tl-full rounded-bl-full ">
+          <TouchableOpacity className=" bg-blue-50 my-5 w-2/3 px-4 rounded-tl-full rounded-bl-full ">
             <Text className="text-base font-semibold  text-slate-700 pr-10 py-2 ">
               Forget your password?
             </Text>
           </TouchableOpacity>
         </View>
 
-        <View className="bg-white my-10 w-1/3 rounded-tr-full rounded-br-full">
+        <View className="bg-blue-50 my-10 w-1/3 rounded-tr-full ">
           <TouchableOpacity>
             <Text className="text-lg pl-10 py-2  text-blue-500  font-semibold mb-">
               Register
